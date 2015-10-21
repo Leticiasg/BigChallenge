@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0846B61BCFF60800B5BBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846B51BCFF60800B5BBEE /* AppDelegate.swift */; };
+		6F0846B81BCFF60800B5BBEE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846B71BCFF60800B5BBEE /* FirstViewController.swift */; };
+		6F0846BA1BCFF60800B5BBEE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846B91BCFF60800B5BBEE /* SecondViewController.swift */; };
+		6F0846BD1BCFF60800B5BBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0846BB1BCFF60800B5BBEE /* Main.storyboard */; };
+		6F0846BF1BCFF60800B5BBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0846BE1BCFF60800B5BBEE /* Assets.xcassets */; };
+		6F0846C21BCFF60800B5BBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0846C01BCFF60800B5BBEE /* LaunchScreen.storyboard */; };
+		6F0846CD1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846CC1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift */; };
+		6F0846D81BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846D71BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift */; };
+		6F0846E61BCFF69B00B5BBEE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846E51BCFF69B00B5BBEE /* DrawingView.swift */; settings = {ASSET_TAGS = (); }; };
+		6F0846E81BCFF6C200B5BBEE /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846E71BCFF6C200B5BBEE /* Line.swift */; settings = {ASSET_TAGS = (); }; };
+		6F0846EA1BCFF79A00B5BBEE /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846E91BCFF79A00B5BBEE /* Firebase.framework */; settings = {ASSET_TAGS = (); }; };
+		6F0846EC1BCFF81000B5BBEE /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846EB1BCFF81000B5BBEE /* libicucore.tbd */; };
+		6F0846EE1BCFF81C00B5BBEE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846ED1BCFF81C00B5BBEE /* libc++.tbd */; };
+		6F0846F01BCFF82600B5BBEE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846EF1BCFF82600B5BBEE /* CFNetwork.framework */; };
+		6F0846F21BCFF82D00B5BBEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846F11BCFF82D00B5BBEE /* Security.framework */; };
+		6F0846F41BCFF83600B5BBEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */; };
+		6F0846F71BD1691000B5BBEE /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846F61BD1691000B5BBEE /* Point.swift */; settings = {ASSET_TAGS = (); }; };
+		6F0846FC1BD16B2C00B5BBEE /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846FB1BD16B2C00B5BBEE /* Path.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F0846C91BCFF60800B5BBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0846AA1BCFF60800B5BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0846B11BCFF60800B5BBEE;
+			remoteInfo = InstaTeacherFirebase;
+		};
+		6F0846D41BCFF60800B5BBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0846AA1BCFF60800B5BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0846B11BCFF60800B5BBEE;
+			remoteInfo = InstaTeacherFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0846B21BCFF60800B5BBEE /* InstaTeacherFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTeacherFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0846B51BCFF60800B5BBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F0846B71BCFF60800B5BBEE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6F0846B91BCFF60800B5BBEE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6F0846BC1BCFF60800B5BBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F0846BE1BCFF60800B5BBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F0846C11BCFF60800B5BBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F0846C31BCFF60800B5BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0846C81BCFF60800B5BBEE /* InstaTeacherFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaTeacherFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0846CC1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTeacherFirebaseTests.swift; sourceTree = "<group>"; };
+		6F0846CE1BCFF60800B5BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0846D31BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaTeacherFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0846D71BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTeacherFirebaseUITests.swift; sourceTree = "<group>"; };
+		6F0846D91BCFF60800B5BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0846E51BCFF69B00B5BBEE /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		6F0846E71BCFF6C200B5BBEE /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		6F0846E91BCFF79A00B5BBEE /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = InstaTeacherFirebase/Firebase.framework; sourceTree = "<group>"; };
+		6F0846EB1BCFF81000B5BBEE /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		6F0846ED1BCFF81C00B5BBEE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6F0846EF1BCFF82600B5BBEE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6F0846F11BCFF82D00B5BBEE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F0846F61BD1691000B5BBEE /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		6F0846FB1BD16B2C00B5BBEE /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0846AF1BCFF60800B5BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0846F41BCFF83600B5BBEE /* SystemConfiguration.framework in Frameworks */,
+				6F0846F21BCFF82D00B5BBEE /* Security.framework in Frameworks */,
+				6F0846F01BCFF82600B5BBEE /* CFNetwork.framework in Frameworks */,
+				6F0846EE1BCFF81C00B5BBEE /* libc++.tbd in Frameworks */,
+				6F0846EC1BCFF81000B5BBEE /* libicucore.tbd in Frameworks */,
+				6F0846EA1BCFF79A00B5BBEE /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0846C51BCFF60800B5BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0846D01BCFF60800B5BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0846A91BCFF60800B5BBEE = {
+			isa = PBXGroup;
+			children = (
+				6F0846F51BCFF88000B5BBEE /* Frameworks */,
+				6F0846B41BCFF60800B5BBEE /* InstaTeacherFirebase */,
+				6F0846CB1BCFF60800B5BBEE /* InstaTeacherFirebaseTests */,
+				6F0846D61BCFF60800B5BBEE /* InstaTeacherFirebaseUITests */,
+				6F0846B31BCFF60800B5BBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0846B31BCFF60800B5BBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846B21BCFF60800B5BBEE /* InstaTeacherFirebase.app */,
+				6F0846C81BCFF60800B5BBEE /* InstaTeacherFirebaseTests.xctest */,
+				6F0846D31BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0846B41BCFF60800B5BBEE /* InstaTeacherFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846FA1BD16AB200B5BBEE /* Controller */,
+				6F0846F91BD16AAC00B5BBEE /* View */,
+				6F0846F81BD16AA100B5BBEE /* Model */,
+				6F0846C31BCFF60800B5BBEE /* Info.plist */,
+			);
+			path = InstaTeacherFirebase;
+			sourceTree = "<group>";
+		};
+		6F0846CB1BCFF60800B5BBEE /* InstaTeacherFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846CC1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift */,
+				6F0846CE1BCFF60800B5BBEE /* Info.plist */,
+			);
+			path = InstaTeacherFirebaseTests;
+			sourceTree = "<group>";
+		};
+		6F0846D61BCFF60800B5BBEE /* InstaTeacherFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846D71BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift */,
+				6F0846D91BCFF60800B5BBEE /* Info.plist */,
+			);
+			path = InstaTeacherFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		6F0846F51BCFF88000B5BBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846E91BCFF79A00B5BBEE /* Firebase.framework */,
+				6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */,
+				6F0846F11BCFF82D00B5BBEE /* Security.framework */,
+				6F0846EF1BCFF82600B5BBEE /* CFNetwork.framework */,
+				6F0846ED1BCFF81C00B5BBEE /* libc++.tbd */,
+				6F0846EB1BCFF81000B5BBEE /* libicucore.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F0846F81BD16AA100B5BBEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846E71BCFF6C200B5BBEE /* Line.swift */,
+				6F0846F61BD1691000B5BBEE /* Point.swift */,
+				6F0846FB1BD16B2C00B5BBEE /* Path.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6F0846F91BD16AAC00B5BBEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846E51BCFF69B00B5BBEE /* DrawingView.swift */,
+				6F0846BB1BCFF60800B5BBEE /* Main.storyboard */,
+				6F0846C01BCFF60800B5BBEE /* LaunchScreen.storyboard */,
+				6F0846BE1BCFF60800B5BBEE /* Assets.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6F0846FA1BD16AB200B5BBEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F0846B71BCFF60800B5BBEE /* FirstViewController.swift */,
+				6F0846B51BCFF60800B5BBEE /* AppDelegate.swift */,
+				6F0846B91BCFF60800B5BBEE /* SecondViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0846B11BCFF60800B5BBEE /* InstaTeacherFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0846DC1BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebase" */;
+			buildPhases = (
+				6F0846AE1BCFF60800B5BBEE /* Sources */,
+				6F0846AF1BCFF60800B5BBEE /* Frameworks */,
+				6F0846B01BCFF60800B5BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaTeacherFirebase;
+			productName = InstaTeacherFirebase;
+			productReference = 6F0846B21BCFF60800B5BBEE /* InstaTeacherFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F0846C71BCFF60800B5BBEE /* InstaTeacherFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0846DF1BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebaseTests" */;
+			buildPhases = (
+				6F0846C41BCFF60800B5BBEE /* Sources */,
+				6F0846C51BCFF60800B5BBEE /* Frameworks */,
+				6F0846C61BCFF60800B5BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0846CA1BCFF60800B5BBEE /* PBXTargetDependency */,
+			);
+			name = InstaTeacherFirebaseTests;
+			productName = InstaTeacherFirebaseTests;
+			productReference = 6F0846C81BCFF60800B5BBEE /* InstaTeacherFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F0846D21BCFF60800B5BBEE /* InstaTeacherFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0846E21BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebaseUITests" */;
+			buildPhases = (
+				6F0846CF1BCFF60800B5BBEE /* Sources */,
+				6F0846D01BCFF60800B5BBEE /* Frameworks */,
+				6F0846D11BCFF60800B5BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0846D51BCFF60800B5BBEE /* PBXTargetDependency */,
+			);
+			name = InstaTeacherFirebaseUITests;
+			productName = InstaTeacherFirebaseUITests;
+			productReference = 6F0846D31BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0846AA1BCFF60800B5BBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = LazyFox;
+				TargetAttributes = {
+					6F0846B11BCFF60800B5BBEE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6F0846C71BCFF60800B5BBEE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6F0846B11BCFF60800B5BBEE;
+					};
+					6F0846D21BCFF60800B5BBEE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6F0846B11BCFF60800B5BBEE;
+					};
+				};
+			};
+			buildConfigurationList = 6F0846AD1BCFF60800B5BBEE /* Build configuration list for PBXProject "InstaTeacherFirebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F0846A91BCFF60800B5BBEE;
+			productRefGroup = 6F0846B31BCFF60800B5BBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0846B11BCFF60800B5BBEE /* InstaTeacherFirebase */,
+				6F0846C71BCFF60800B5BBEE /* InstaTeacherFirebaseTests */,
+				6F0846D21BCFF60800B5BBEE /* InstaTeacherFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0846B01BCFF60800B5BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0846C21BCFF60800B5BBEE /* LaunchScreen.storyboard in Resources */,
+				6F0846BF1BCFF60800B5BBEE /* Assets.xcassets in Resources */,
+				6F0846BD1BCFF60800B5BBEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0846C61BCFF60800B5BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0846D11BCFF60800B5BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0846AE1BCFF60800B5BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0846BA1BCFF60800B5BBEE /* SecondViewController.swift in Sources */,
+				6F0846FC1BD16B2C00B5BBEE /* Path.swift in Sources */,
+				6F0846B61BCFF60800B5BBEE /* AppDelegate.swift in Sources */,
+				6F0846F71BD1691000B5BBEE /* Point.swift in Sources */,
+				6F0846B81BCFF60800B5BBEE /* FirstViewController.swift in Sources */,
+				6F0846E61BCFF69B00B5BBEE /* DrawingView.swift in Sources */,
+				6F0846E81BCFF6C200B5BBEE /* Line.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0846C41BCFF60800B5BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0846CD1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0846CF1BCFF60800B5BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0846D81BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F0846CA1BCFF60800B5BBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0846B11BCFF60800B5BBEE /* InstaTeacherFirebase */;
+			targetProxy = 6F0846C91BCFF60800B5BBEE /* PBXContainerItemProxy */;
+		};
+		6F0846D51BCFF60800B5BBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0846B11BCFF60800B5BBEE /* InstaTeacherFirebase */;
+			targetProxy = 6F0846D41BCFF60800B5BBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F0846BB1BCFF60800B5BBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0846BC1BCFF60800B5BBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F0846C01BCFF60800B5BBEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0846C11BCFF60800B5BBEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0846DA1BCFF60800B5BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F0846DB1BCFF60800B5BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0846DD1BCFF60800B5BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaTeacherFirebase",
+				);
+				INFOPLIST_FILE = InstaTeacherFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F0846DE1BCFF60800B5BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaTeacherFirebase",
+				);
+				INFOPLIST_FILE = InstaTeacherFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F0846E01BCFF60800B5BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaTeacherFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaTeacherFirebase.app/InstaTeacherFirebase";
+			};
+			name = Debug;
+		};
+		6F0846E11BCFF60800B5BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaTeacherFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaTeacherFirebase.app/InstaTeacherFirebase";
+			};
+			name = Release;
+		};
+		6F0846E31BCFF60800B5BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaTeacherFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaTeacherFirebase;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F0846E41BCFF60800B5BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaTeacherFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaTeacherFirebase;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0846AD1BCFF60800B5BBEE /* Build configuration list for PBXProject "InstaTeacherFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0846DA1BCFF60800B5BBEE /* Debug */,
+				6F0846DB1BCFF60800B5BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0846DC1BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0846DD1BCFF60800B5BBEE /* Debug */,
+				6F0846DE1BCFF60800B5BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F0846DF1BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0846E01BCFF60800B5BBEE /* Debug */,
+				6F0846E11BCFF60800B5BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F0846E21BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0846E31BCFF60800B5BBEE /* Debug */,
+				6F0846E41BCFF60800B5BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0846AA1BCFF60800B5BBEE /* Project object */;
+}
