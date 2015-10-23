@@ -42,7 +42,7 @@ class DrawingView: UIView {
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if let touch = touches.first {
             let newPoint = touch.locationInView(self)
-            lines.append(Line(start: lastPoint, ebd: newPoint))
+            lines.append(Line(start: lastPoint, end: newPoint))
             lastPoint = newPoint
         }
         self.uptade()
@@ -50,14 +50,16 @@ class DrawingView: UIView {
     
     override func drawRect(rect: CGRect) {
         let context = UIGraphicsGetCurrentContext()
-        CGContextBeginPath(context)
+        
+        CGContextSetLineWidth(context, 3)
+        CGContextSetLineCap(context, .Round)
         for line in lines{
+            CGContextBeginPath(context)
             CGContextMoveToPoint(context, line.start.x, line.start.y)
             CGContextAddLineToPoint(context, line.end.x, line.end.y)
+            CGContextSetRGBStrokeColor(context, 1, 1, 1, 1)
+            CGContextStrokePath(context)
         }
-        CGContextSetRGBStrokeColor(context, 1, 1, 1, 1)
-        CGContextSetLineWidth(context, 3)
-        CGContextStrokePath(context)
     }
     
     func uptade(){

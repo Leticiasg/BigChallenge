@@ -15,16 +15,17 @@
 		6F0846C21BCFF60800B5BBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0846C01BCFF60800B5BBEE /* LaunchScreen.storyboard */; };
 		6F0846CD1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846CC1BCFF60800B5BBEE /* InstaTeacherFirebaseTests.swift */; };
 		6F0846D81BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846D71BCFF60800B5BBEE /* InstaTeacherFirebaseUITests.swift */; };
-		6F0846E61BCFF69B00B5BBEE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846E51BCFF69B00B5BBEE /* DrawingView.swift */; settings = {ASSET_TAGS = (); }; };
-		6F0846E81BCFF6C200B5BBEE /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846E71BCFF6C200B5BBEE /* Line.swift */; settings = {ASSET_TAGS = (); }; };
-		6F0846EA1BCFF79A00B5BBEE /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846E91BCFF79A00B5BBEE /* Firebase.framework */; settings = {ASSET_TAGS = (); }; };
+		6F0846E61BCFF69B00B5BBEE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846E51BCFF69B00B5BBEE /* DrawingView.swift */; };
+		6F0846E81BCFF6C200B5BBEE /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846E71BCFF6C200B5BBEE /* Line.swift */; };
 		6F0846EC1BCFF81000B5BBEE /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846EB1BCFF81000B5BBEE /* libicucore.tbd */; };
 		6F0846EE1BCFF81C00B5BBEE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846ED1BCFF81C00B5BBEE /* libc++.tbd */; };
 		6F0846F01BCFF82600B5BBEE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846EF1BCFF82600B5BBEE /* CFNetwork.framework */; };
 		6F0846F21BCFF82D00B5BBEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846F11BCFF82D00B5BBEE /* Security.framework */; };
 		6F0846F41BCFF83600B5BBEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */; };
-		6F0846F71BD1691000B5BBEE /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846F61BD1691000B5BBEE /* Point.swift */; settings = {ASSET_TAGS = (); }; };
-		6F0846FC1BD16B2C00B5BBEE /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846FB1BD16B2C00B5BBEE /* Path.swift */; settings = {ASSET_TAGS = (); }; };
+		6F0846F71BD1691000B5BBEE /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846F61BD1691000B5BBEE /* Point.swift */; };
+		6F0846FC1BD16B2C00B5BBEE /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846FB1BD16B2C00B5BBEE /* Path.swift */; };
+		C46DAF431BD7FF5600AF085A /* FDPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DAF421BD7FF5600AF085A /* FDPath.swift */; };
+		C4EE18B31BD7F573006FE3B7 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EE18B21BD7F573006FE3B7 /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,6 @@
 		6F0846D91BCFF60800B5BBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0846E51BCFF69B00B5BBEE /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		6F0846E71BCFF6C200B5BBEE /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
-		6F0846E91BCFF79A00B5BBEE /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = InstaTeacherFirebase/Firebase.framework; sourceTree = "<group>"; };
 		6F0846EB1BCFF81000B5BBEE /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		6F0846ED1BCFF81C00B5BBEE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		6F0846EF1BCFF82600B5BBEE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -69,6 +69,8 @@
 		6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6F0846F61BD1691000B5BBEE /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		6F0846FB1BD16B2C00B5BBEE /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		C46DAF421BD7FF5600AF085A /* FDPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDPath.swift; sourceTree = "<group>"; };
+		C4EE18B21BD7F573006FE3B7 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EE18B31BD7F573006FE3B7 /* Firebase.framework in Frameworks */,
 				6F0846F41BCFF83600B5BBEE /* SystemConfiguration.framework in Frameworks */,
 				6F0846F21BCFF82D00B5BBEE /* Security.framework in Frameworks */,
 				6F0846F01BCFF82600B5BBEE /* CFNetwork.framework in Frameworks */,
 				6F0846EE1BCFF81C00B5BBEE /* libc++.tbd in Frameworks */,
 				6F0846EC1BCFF81000B5BBEE /* libicucore.tbd in Frameworks */,
-				6F0846EA1BCFF79A00B5BBEE /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +157,7 @@
 		6F0846F51BCFF88000B5BBEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F0846E91BCFF79A00B5BBEE /* Firebase.framework */,
+				C4EE18B21BD7F573006FE3B7 /* Firebase.framework */,
 				6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */,
 				6F0846F11BCFF82D00B5BBEE /* Security.framework */,
 				6F0846EF1BCFF82600B5BBEE /* CFNetwork.framework */,
@@ -171,6 +173,7 @@
 				6F0846E71BCFF6C200B5BBEE /* Line.swift */,
 				6F0846F61BD1691000B5BBEE /* Point.swift */,
 				6F0846FB1BD16B2C00B5BBEE /* Path.swift */,
+				C46DAF421BD7FF5600AF085A /* FDPath.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -274,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6F0846AD1BCFF60800B5BBEE /* Build configuration list for PBXProject "InstaTeacherFirebase" */;
+			buildConfigurationList = 6F0846AD1BCFF60800B5BBEE /* Build configuration list for PBXProject "instaTeacherFirebase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -332,6 +335,7 @@
 				6F0846F71BD1691000B5BBEE /* Point.swift in Sources */,
 				6F0846B81BCFF60800B5BBEE /* FirstViewController.swift in Sources */,
 				6F0846E61BCFF69B00B5BBEE /* DrawingView.swift in Sources */,
+				C46DAF431BD7FF5600AF085A /* FDPath.swift in Sources */,
 				6F0846E81BCFF6C200B5BBEE /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,12 +477,13 @@
 		6F0846DD1BCFF60800B5BBEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/InstaTeacherFirebase",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = InstaTeacherFirebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,12 +493,13 @@
 		6F0846DE1BCFF60800B5BBEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/InstaTeacherFirebase",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = InstaTeacherFirebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LF.InstaTeacherFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F0846AD1BCFF60800B5BBEE /* Build configuration list for PBXProject "InstaTeacherFirebase" */ = {
+		6F0846AD1BCFF60800B5BBEE /* Build configuration list for PBXProject "instaTeacherFirebase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F0846DA1BCFF60800B5BBEE /* Debug */,
@@ -567,6 +573,7 @@
 				6F0846DE1BCFF60800B5BBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F0846DF1BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebaseTests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +582,7 @@
 				6F0846E11BCFF60800B5BBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F0846E21BCFF60800B5BBEE /* Build configuration list for PBXNativeTarget "InstaTeacherFirebaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +591,7 @@
 				6F0846E41BCFF60800B5BBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
