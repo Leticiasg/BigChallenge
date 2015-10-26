@@ -94,20 +94,20 @@ class FDPath{
         return result
     }
 
-//    func serialize() -> NSDictionary {
-//        var dictionary: NSMutableDictionary
-//        
-//        dictionary["color"] = FDPath.serializeColor(self.color)
-//        
-//        var points: NSMutableArray
-//        for point in self.points {
-//            var thePoint = point as! FDPoint
-//            points.addObject(["x":"0"])
-//        }
-//       dictionary["points"] = points
-//        
-//        return dictionary
-//    }
+    func serialize() -> NSDictionary {
+        var dictionary: NSMutableDictionary = NSDictionary().mutableCopy() as! NSMutableDictionary
+        
+        dictionary["color"] = FDPath.serializeColor(self.color)
+        
+        var points: NSMutableArray = []
+        for point in self.points {
+            let thePoint = point as! FDPoint
+            points.addObject(["x":"\(thePoint.x)","y":"\(thePoint.y)"])
+        }
+       dictionary["points"] = points
+        
+        return dictionary
+    }
     
     static func parseColor(number: NSNumber) -> UIColor {
         let integer = number.integerValue
