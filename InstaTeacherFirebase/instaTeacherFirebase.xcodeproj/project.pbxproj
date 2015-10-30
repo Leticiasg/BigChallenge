@@ -24,6 +24,8 @@
 		6F0846F41BCFF83600B5BBEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */; };
 		6F0846F71BD1691000B5BBEE /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846F61BD1691000B5BBEE /* Point.swift */; };
 		6F0846FC1BD16B2C00B5BBEE /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0846FB1BD16B2C00B5BBEE /* Path.swift */; };
+		C4477F631BE129AB000DEC44 /* FDDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4477F621BE129AA000DEC44 /* FDDrawView.swift */; };
+		C4477F651BE1CD6C000DEC44 /* FDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4477F641BE1CD6C000DEC44 /* FDViewController.swift */; };
 		C46DAF431BD7FF5600AF085A /* FDPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DAF421BD7FF5600AF085A /* FDPath.swift */; };
 		C4EE18B31BD7F573006FE3B7 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EE18B21BD7F573006FE3B7 /* Firebase.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +71,8 @@
 		6F0846F31BCFF83600B5BBEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6F0846F61BD1691000B5BBEE /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		6F0846FB1BD16B2C00B5BBEE /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		C4477F621BE129AA000DEC44 /* FDDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDDrawView.swift; sourceTree = "<group>"; };
+		C4477F641BE1CD6C000DEC44 /* FDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDViewController.swift; sourceTree = "<group>"; };
 		C46DAF421BD7FF5600AF085A /* FDPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDPath.swift; sourceTree = "<group>"; };
 		C4EE18B21BD7F573006FE3B7 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +178,7 @@
 				6F0846F61BD1691000B5BBEE /* Point.swift */,
 				6F0846FB1BD16B2C00B5BBEE /* Path.swift */,
 				C46DAF421BD7FF5600AF085A /* FDPath.swift */,
+				C4477F621BE129AA000DEC44 /* FDDrawView.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				6F0846B71BCFF60800B5BBEE /* FirstViewController.swift */,
 				6F0846B51BCFF60800B5BBEE /* AppDelegate.swift */,
 				6F0846B91BCFF60800B5BBEE /* SecondViewController.swift */,
+				C4477F641BE1CD6C000DEC44 /* FDViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -334,8 +340,10 @@
 				6F0846B61BCFF60800B5BBEE /* AppDelegate.swift in Sources */,
 				6F0846F71BD1691000B5BBEE /* Point.swift in Sources */,
 				6F0846B81BCFF60800B5BBEE /* FirstViewController.swift in Sources */,
+				C4477F631BE129AB000DEC44 /* FDDrawView.swift in Sources */,
 				6F0846E61BCFF69B00B5BBEE /* DrawingView.swift in Sources */,
 				C46DAF431BD7FF5600AF085A /* FDPath.swift in Sources */,
+				C4477F651BE1CD6C000DEC44 /* FDViewController.swift in Sources */,
 				6F0846E81BCFF6C200B5BBEE /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

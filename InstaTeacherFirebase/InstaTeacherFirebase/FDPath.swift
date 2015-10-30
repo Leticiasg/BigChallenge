@@ -66,6 +66,10 @@ class FDPath{
         points = _points
     }
     
+     func addPoint(point: CGPoint){
+        self.points.addObject(FDPoint(myPoint: point))
+    }
+    
     static func parse(dictionary: NSDictionary) -> FDPath {
         
         var result = FDPath(withColor: UIColor.whiteColor())
