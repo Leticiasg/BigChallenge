@@ -119,7 +119,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" id="KtO-6x-gLo"/>
                     <connections>
-                        <outlet property="drawView" destination="6NR-5W-srt" id="tax-1y-kDA"/>
+                        <outlet property="drawView" destination="6NR-5W-srt" id="Q25-Fo-xSX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BPq-gE-WsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
