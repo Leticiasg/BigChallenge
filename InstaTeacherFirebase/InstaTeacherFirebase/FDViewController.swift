@@ -11,7 +11,7 @@ import Firebase
 
 class FDViewController: UIViewController, FDDrawViewDelegate{
 
-    let kFireBaseURL = "https://instateacher.firebaseio.com"
+    let kFireBaseURL = "https://torrid-inferno-5099.firebaseio.com/"
 //
     var firebase: Firebase!
     var paths: NSMutableArray = []
@@ -67,7 +67,11 @@ class FDViewController: UIViewController, FDDrawViewDelegate{
         
     }
     
-
+//    required init?(coder aDecoder: NSCoder) {
+//        print("pasou pelo required init")
+//
+//        super.init(coder: aDecoder)
+//    }
 
     func drawView(view: FDDrawView, didFinishDrawingPath path: FDPath) {
         // the user finished drawing a Path

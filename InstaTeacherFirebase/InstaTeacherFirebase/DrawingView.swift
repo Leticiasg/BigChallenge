@@ -22,7 +22,6 @@ var lines: [Line] = []
 class DrawingView: UIView {
     
     // Create a reference to a Firebase location
-    var ref = Firebase(url:"https://instateacher.firebaseio.com/")
     
     var lastPoint: CGPoint!
     

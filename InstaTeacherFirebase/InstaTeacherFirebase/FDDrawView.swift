@@ -12,7 +12,7 @@ import UIKit
 
 class FDDrawView:UIView{
 
-    var drawColor:UIColor!
+    var drawColor:UIColor! = UIColor.blackColor()
     var delegate:FDDrawViewDelegate!
     
     
@@ -28,7 +28,7 @@ class FDDrawView:UIView{
 //    }
 
     required init?(coder aDecoder: NSCoder) {
-        print("paso pelo required init do drawingview")
+//        print("paso pelo required init do drawingview")
 
         super.init(coder: aDecoder)
         self.paths = []
