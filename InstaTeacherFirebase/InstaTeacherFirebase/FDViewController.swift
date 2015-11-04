@@ -12,15 +12,17 @@ import Firebase
 class FDViewController: UIViewController, FDDrawViewDelegate{
 
     let kFireBaseURL = "https://instateacher.firebaseio.com"
-    
-    let firebase: Firebase
+//
+    var firebase: Firebase!
     var paths: NSMutableArray = []
-    var drawView: FDDrawView!
-    var outstandingPaths: Set<String>
+    @IBOutlet var drawView: FDDrawView!
+    var outstandingPaths: Set<String> = []
     var childAddedHandle: FirebaseHandle!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.drawView.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -41,14 +43,6 @@ class FDViewController: UIViewController, FDDrawViewDelegate{
     }
     */
 
-//    init(){
-////        super.init(
-//        super.init(nibName: <#T##String?#>, bundle: <#T##NSBundle?#>)
-//        
-//        self.firebase = Firebase(url: kFireBaseURL)
-//        self.paths = []
-//        self.outstandingPaths = []
-//    }
 
 
     required init?(coder aDecoder: NSCoder) {
@@ -57,7 +51,7 @@ class FDViewController: UIViewController, FDDrawViewDelegate{
         self.outstandingPaths = []
         
         super.init(coder: aDecoder)
-        fatalError("init(coder:) has not been implemented")
+     //   fatalError("init(coder:) has not been implemented")
         self.childAddedHandle = self.firebase.observeEventType(FEventType.ChildAdded
             , withBlock: { (snapShot:FDataSnapshot!) -> Void in
                 if self.outstandingPaths.contains(snapShot.key){
@@ -73,6 +67,8 @@ class FDViewController: UIViewController, FDDrawViewDelegate{
         
     }
     
+
+
     func drawView(view: FDDrawView, didFinishDrawingPath path: FDPath) {
         // the user finished drawing a Path
         let pathRef = self.firebase.childByAutoId()
@@ -85,7 +81,7 @@ class FDViewController: UIViewController, FDDrawViewDelegate{
             self.outstandingPaths.remove(name)
         }
         }
-        
+    
     }
 
 

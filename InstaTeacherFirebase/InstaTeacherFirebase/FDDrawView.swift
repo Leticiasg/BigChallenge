@@ -12,25 +12,31 @@ import UIKit
 
 class FDDrawView:UIView{
 
-    var drawColor:UIColor?
-    var delegate:FDDrawViewDelegate?
+    var drawColor:UIColor!
+    var delegate:FDDrawViewDelegate!
     
     
-    var paths: NSMutableArray?
-    var currentPath: FDPath?
-    var currentTouch: UITouch?
+    var paths: NSMutableArray!
+    var currentPath: FDPath!
+    var currentTouch: UITouch!
 
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+//    override init(frame: CGRect) {
+//        super.init(frame: frame)
+//        self.paths = []
+//        self.backgroundColor = UIColor.whiteColor()
+//        self.drawColor = UIColor.redColor()
+//    }
+
+    required init?(coder aDecoder: NSCoder) {
+        print("paso pelo required init do drawingview")
+
+        super.init(coder: aDecoder)
         self.paths = []
         self.backgroundColor = UIColor.whiteColor()
         self.drawColor = UIColor.redColor()
+        
     }
     
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
     func addPath(path: FDPath){
         self.paths?.addObject(path)

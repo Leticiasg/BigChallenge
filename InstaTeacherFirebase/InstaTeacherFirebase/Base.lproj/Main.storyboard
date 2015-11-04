@@ -99,7 +99,7 @@
         <!--FDDrawView-->
         <scene sceneID="Jqa-Be-IKM">
             <objects>
-                <viewController id="DpD-ZC-lLJ" userLabel="FDDrawView" sceneMemberID="viewController">
+                <viewController id="DpD-ZC-lLJ" userLabel="FDDrawView" customClass="FDViewController" customModule="InstaTeacherFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aEz-Mj-47z"/>
                         <viewControllerLayoutGuide type="bottom" id="x7P-rY-5OB"/>
@@ -118,6 +118,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" id="KtO-6x-gLo"/>
+                    <connections>
+                        <outlet property="drawView" destination="6NR-5W-srt" id="tax-1y-kDA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BPq-gE-WsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
